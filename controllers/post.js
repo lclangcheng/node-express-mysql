@@ -79,7 +79,7 @@ exports.update = (req, res) => {
 		}
 
 		return res.json({
-			message: 'Updated post',
+			message: 'Post updated',
 			updatedPostId: id,
 		});
 	});
