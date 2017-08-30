@@ -67,8 +67,7 @@ exports.destroy = (req, res) => {
 
 	db.query(sqlQuery, (error, result) => {
 		return res.json({
-			status: 'OK',
-			message: 'Deleted posts',
+			message: 'Post deleted',
 			deletedPostId: id
 		});
 	});
